@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0FA2072146A81F00B961CF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FA2062146A81F00B961CF /* CustomCell.swift */; };
 		BD211251213FFA0D00DEE614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD211250213FFA0D00DEE614 /* AppDelegate.swift */; };
 		BD211253213FFA0D00DEE614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD211252213FFA0D00DEE614 /* ViewController.swift */; };
 		BD211256213FFA0D00DEE614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD211254213FFA0D00DEE614 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		BD21125B213FFA0D00DEE614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD211259213FFA0D00DEE614 /* LaunchScreen.storyboard */; };
 		BD211266213FFA0D00DEE614 /* FreeMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD211265213FFA0D00DEE614 /* FreeMusicPlayerTests.swift */; };
 		BD211271213FFA0D00DEE614 /* FreeMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD211270213FFA0D00DEE614 /* FreeMusicPlayerUITests.swift */; };
+		BD50B7A72164F56800F86803 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50B7A62164F56800F86803 /* DetailController.swift */; };
+		BD50B7A92165058100F86803 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50B7A82165058100F86803 /* Models.swift */; };
+		BDA7620C21665D0300298FCA /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7620B21665D0300298FCA /* Song.swift */; };
+		BDA7620E2166606000298FCA /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7620D2166606000298FCA /* Playlists.swift */; };
+		DC1674E4177F35D3A6676CDD /* Pods_FreeMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E5223C603B5F690D467ED2 /* Pods_FreeMusicPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602969EECD908257A78C27EB /* Pods-FreeMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMusicPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMusicPlayer/Pods-FreeMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		7CCEF969356AA8CF795A4A95 /* Pods-FreeMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMusicPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeMusicPlayer/Pods-FreeMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		BD0FA2062146A81F00B961CF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		BD21124D213FFA0D00DEE614 /* FreeMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD211250213FFA0D00DEE614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD211252213FFA0D00DEE614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		BD21126C213FFA0D00DEE614 /* FreeMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD211270213FFA0D00DEE614 /* FreeMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMusicPlayerUITests.swift; sourceTree = "<group>"; };
 		BD211272213FFA0D00DEE614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD50B7A62164F56800F86803 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		BD50B7A82165058100F86803 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BDA7620B21665D0300298FCA /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		BDA7620D2166606000298FCA /* Playlists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
+		F5E5223C603B5F690D467ED2 /* Pods_FreeMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1674E4177F35D3A6676CDD /* Pods_FreeMusicPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0846357C750DD8978AC48F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E5223C603B5F690D467ED2 /* Pods_FreeMusicPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B68CED93D5FAB59987E6211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				602969EECD908257A78C27EB /* Pods-FreeMusicPlayer.debug.xcconfig */,
+				7CCEF969356AA8CF795A4A95 /* Pods-FreeMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD211244213FFA0D00DEE614 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				BD211264213FFA0D00DEE614 /* FreeMusicPlayerTests */,
 				BD21126F213FFA0D00DEE614 /* FreeMusicPlayerUITests */,
 				BD21124E213FFA0D00DEE614 /* Products */,
+				6B68CED93D5FAB59987E6211 /* Pods */,
+				0846357C750DD8978AC48F6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,10 @@
 		BD21124F213FFA0D00DEE614 /* FreeMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				BD211250213FFA0D00DEE614 /* AppDelegate.swift */,
-				BD211252213FFA0D00DEE614 /* ViewController.swift */,
-				BD211254213FFA0D00DEE614 /* Main.storyboard */,
-				BD211257213FFA0D00DEE614 /* Assets.xcassets */,
-				BD211259213FFA0D00DEE614 /* LaunchScreen.storyboard */,
 				BD21125C213FFA0D00DEE614 /* Info.plist */,
+				BD933B1E21636CC400B160A8 /* UI */,
+				BD933B2021636D2F00B160A8 /* Application */,
+				BD933B1F21636D0500B160A8 /* Ressources */,
 			);
 			path = FreeMusicPlayer;
 			sourceTree = "<group>";
@@ -125,6 +157,37 @@
 			path = FreeMusicPlayerUITests;
 			sourceTree = "<group>";
 		};
+		BD933B1E21636CC400B160A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BD211254213FFA0D00DEE614 /* Main.storyboard */,
+				BD211252213FFA0D00DEE614 /* ViewController.swift */,
+				BD0FA2062146A81F00B961CF /* CustomCell.swift */,
+				BD50B7A62164F56800F86803 /* DetailController.swift */,
+				BDA7620B21665D0300298FCA /* Song.swift */,
+				BDA7620D2166606000298FCA /* Playlists.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BD933B1F21636D0500B160A8 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BD211259213FFA0D00DEE614 /* LaunchScreen.storyboard */,
+				BD211257213FFA0D00DEE614 /* Assets.xcassets */,
+				BD50B7A82165058100F86803 /* Models.swift */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		BD933B2021636D2F00B160A8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BD211250213FFA0D00DEE614 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD211275213FFA0D00DEE614 /* Build configuration list for PBXNativeTarget "FreeMusicPlayer" */;
 			buildPhases = (
+				7DE9E17F774C3490E5173FDF /* [CP] Check Pods Manifest.lock */,
 				BD211249213FFA0D00DEE614 /* Sources */,
 				BD21124A213FFA0D00DEE614 /* Frameworks */,
 				BD21124B213FFA0D00DEE614 /* Resources */,
+				A6CF6D7E68247BD41F502B28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +319,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DE9E17F774C3490E5173FDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMusicPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CF6D7E68247BD41F502B28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreeMusicPlayer/Pods-FreeMusicPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeMusicPlayer/Pods-FreeMusicPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD211249213FFA0D00DEE614 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA7620C21665D0300298FCA /* Song.swift in Sources */,
+				BD50B7A72164F56800F86803 /* DetailController.swift in Sources */,
 				BD211253213FFA0D00DEE614 /* ViewController.swift in Sources */,
+				BD0FA2072146A81F00B961CF /* CustomCell.swift in Sources */,
 				BD211251213FFA0D00DEE614 /* AppDelegate.swift in Sources */,
+				BD50B7A92165058100F86803 /* Models.swift in Sources */,
+				BDA7620E2166606000298FCA /* Playlists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +533,7 @@
 		};
 		BD211276213FFA0D00DEE614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602969EECD908257A78C27EB /* Pods-FreeMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +548,7 @@
 		};
 		BD211277213FFA0D00DEE614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCEF969356AA8CF795A4A95 /* Pods-FreeMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

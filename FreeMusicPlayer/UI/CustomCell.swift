@@ -10,4 +10,9 @@ import UIKit
 
 class CustomCell: UITableViewCell {
     
+    @IBOutlet weak var cellImage: UIImageView!
+    @IBOutlet weak var cellMusicTitle: UILabel!
+    @IBOutlet weak var cellButton: UIButton!
+    @IBOutlet weak var cellProgressBar: UIProgressView!
+    
 }
